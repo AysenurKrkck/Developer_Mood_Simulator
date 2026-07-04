@@ -1,8 +1,6 @@
-# arduino-dev-dilemma-lcd
-
 # Developer-Mood-Simulator_Arduino-I2C-LCD
 
-# Developer Mood Simulator (v1.0.0)
+# Developer Mood Simulator
 
 [🇹🇷 Türkçe Açıklama İçin Tıklayın](#-türkçe-içindekiler) | [🇺🇸 Click For English Description](#-english-table-of-contents)
 
@@ -58,7 +56,7 @@ Bu proje, bir yazılımcının kodlama sürecindeki ruh hallerini ve meşhur dö
 ### About the Project
 This project is an interactive, Arduino-based simulator that humorously reflects the emotional rollercoaster and internal states of a software developer. By reading analog signals ($0 - 1023$) from a potentiometer, the system shifts between various developer mindsets and projects them onto an I2C 16x2 LCD screen.
 
-### Features (v1.0.0)
+### Features
 - **Custom Pixel Art:** Hand-crafted Sad Face `:(`, Heart `<3`, and Lock `🔒` icons directly registered to the LCD's internal CGRAM memory slots.
 - **Dynamic State Mapping:** Smoothly maps potentiometer positions into active developer realities in real-time.
 - **Optimized Hardware Layer:** Built utilizing the modern `hd44780` library, which auto-detects I2C addresses and improves rendering performance.
